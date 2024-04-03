@@ -1,8 +1,8 @@
 # OS Project 3 - Leo Carten
 
 ### How to run my project
-1. Copy `Main.java` into a directory.
-2. Copy `Car.java` into the same directory as `Main.java`.
+1. Copy `Main.java` into a directory where can be found [here](https://github.com/leocarten/os_project_3/blob/main/Main.java).
+2. Copy `Car.java` into the same directory as `Main.java`, which can be found [here](https://github.com/leocarten/os_project_3/blob/main/Car.java).
 3. Compile `Main.java` like this: `[lmc1076@srvlp-dpt-cs01 proj3]$ javac Main.java`.
 4. Run `Main.java` like this: `[lmc1076@srvlp-dpt-cs01 proj3]$ java Main`.
 
