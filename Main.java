@@ -13,7 +13,7 @@ public class Main{
         int buffer_wait = 11; //11
         int total_hours = 24; //24
         int total_timer = 0; 
-        int time_allowed_to_wait = 1; // 2
+        int time_allowed_to_wait = 20; // 2
         int time_counter = 0;
         int length_counter = 0;
         int total_left_lane_wait = 0;
