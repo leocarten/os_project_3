@@ -1,0 +1,19 @@
+// there is 2 lane traffic
+    // each lane should be its own variable. an array, even. 
+        // we can declare the array as size 100, for example.
+        // as cars are added to the array, we can decide which lane should proceed. 
+
+// one lane is shutdown, we need to make sure that traffic
+    // the lane is the resource and car(s) lane is the process. we want the cars to have exclusive access to the lane to avoid crashes.
+    // this is where we can implement the locks
+    
+// with that being said, we need to figure out a way (using syncronization) to allow one lane to go (without crashing), then allow the other lane to go
+
+// further, i also need to randomly generate cars. 
+    // the randomly generated cars will be randomly added to the end of the array.
+
+// i can keep counters for how many times a "traffic jam" occurs
+    // for example, if traffic gets backed up over 50 cars in length, consider this a traffic jam and increase the counter
+
+
+// I NEED TO FIND OUT TIME CONVERSIONS FOR MILIS AND THE LOOP SO I CAN USE A REAL SIMULATION
